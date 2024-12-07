@@ -1,0 +1,111 @@
+/* General Styling */
+.laptop-management-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    text-align: center;
+    color: #333;
+  }
+  
+  .subheading {
+    margin-top: 20px;
+    color: #555;
+  }
+  
+  /* Laptop List Styling */
+  .laptop-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .laptop-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .laptop-info {
+    flex: 1;
+  }
+  
+  /* Status Styling */
+  .status {
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    text-transform: capitalize;
+  }
+  
+  .status.available {
+    background-color: #e0f7fa;
+    color: #006064;
+  }
+  
+  .status.assigned {
+    background-color: #fff3e0;
+    color: #e65100;
+  }
+  
+  .status.maintenance {
+    background-color: #ffebee;
+    color: #b71c1c;
+  }
+  
+  /* Button Styling */
+  .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .delete-btn,
+  .update-btn,
+  .ok-btn {
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .delete-btn {
+    background-color: #d32f2f;
+  }
+  
+  .delete-btn:hover {
+    background-color: #b71c1c;
+  }
+  
+  .update-btn:hover,
+  .ok-btn:hover {
+    background-color: #115293;
+  }
+  
+  /* Dropdown Styling */
+  .status-update {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .status-dropdown {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
